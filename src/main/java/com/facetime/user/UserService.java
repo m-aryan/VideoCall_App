@@ -27,6 +27,7 @@ public class UserService {
             throw new RuntimeException("Password Incorrect");
         }
         cUser.setStatus("online");
+        System.out.println(USERS_LIST);
         return cUser;
     }
 
